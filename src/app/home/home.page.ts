@@ -9,5 +9,7 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule],
 })
 export class HomePage {
-  constructor() {}
+  TrocarCurso(event:any) {
+    console.log(event.detail.value);
+  }
 }
