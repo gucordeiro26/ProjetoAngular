@@ -3,16 +3,25 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    --background: #ffffff;
+    color: #000000;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
   }
   
   .conteudo-1 {
-    height: 50vh;
+    display: flex;
+    justify-content: center;
+    height: 20rem;
     width: 100%;
   }
 
   .conteudo-2 {
     padding-top: 2em;
-    height: 100%;
+    height: 20rem;
     width: 100%;
   }
 
@@ -34,6 +43,89 @@
     justify-content: center;
   }
 
+  .btn-1 {
+    --border-radius: 1em;
+    --background: #000000;
+    color: #ffffff;
+  }
+
+  .btn-2 {
+    --border-radius: 1em;
+    --background: #5f5f5f;
+    color: #ffffff;
+  }
+
   ion-button {
     width: 80%;
+  }
+
+  .qtd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .numero {
+    font-weight: bold;
+  }
+
+  ion-label h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  ion-label h3 {
+    font-size: 1.25em;
+    color: #5f5f5f;
+  }
+
+  hr {
+    height: 3px;
+    background: #000000;
+    margin: 0 2em;
+  }
+
+  .titulos {
+    padding: 0 0 0 2em;
+  }
+
+  .titulo-s {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .msg {
+    font-size: 1.25em;
+  }
+
+  .titulos-sm {
+    font-weight: bold;
+    font-size: 1.25em;
+  }
+
+  .msg-sm {
+    font-size: 1.25em;
+    color: #5f5f5f;
+  }
+
+  .img-sm {
+    border-radius: 50%;
+    height: 9rem;
+    width: 9rem;
+  }
+
+  .padding-2 {
+    padding: 0 2em;
+  }
+
+  .msg-postagem {
+    font-size: 1.2em;
+  }
+
+  .img-postagem {
+    height: 20rem;
+    width: 20rem auto;
+    border-radius: 2em;
   }

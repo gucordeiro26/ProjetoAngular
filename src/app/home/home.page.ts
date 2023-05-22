@@ -9,6 +9,7 @@ import { IonicModule } from '@ionic/angular';
   standalone: true,
   imports: [IonicModule,CommonModule],
 })
+
 export class HomePage {
 
   perfil = {
@@ -60,17 +61,6 @@ export class HomePage {
       },
       postagem: {
         mensagem: 'Olá pessoal, alguém quer aprender CSS?',
-        foto: null
-      }
-    },
-    {
-      perfil: {
-        nome: 'Marcos',
-        mencao_perfil: '@marcos',
-        foto: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-      },
-      postagem: {
-        mensagem: 'Se colocar uma calculadora na geladeira, terei tudo friamente calculado?',
         foto: null
       }
     },
