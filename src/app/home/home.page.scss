@@ -16,3 +16,13 @@
     height: 100% auto;
     width: 50rem;
   }
+
+  .card {
+    border-radius: 1.5em;
+    border: none;
+  }
+
+  ion-item {
+    --background: white;
+    color: black;
+  }
