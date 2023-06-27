@@ -15,12 +15,12 @@
 .row_input_number {
   height: calc(25vh - 22px);
   width: 100%;
-  padding: .5em;
+  padding: .5rem;
 }
 
 .label_number {
-  font-size: 1.5em;
-  margin: 1.5em 0 0 .5em;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0 .5rem;
   color: #FFFFFF;
 }
 
@@ -28,7 +28,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  font-size: 3em;
+  font-size: 300%;
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -36,30 +36,24 @@
 
 .calculadora {
   border: solid 3px #000000;
-  border-radius: .5em;
-  margin: .5em 0;
+  border-radius: .5rem;
+  margin: 1vh 0;
 }
 
 .btn_calc {
   height: 15vh;
   width: 100%;
-  padding: .5em;
+  padding: .5rem;
   color: #FFFFFF;
-  font-size: 2em;
+  font-size: 5vh;
   font-weight: bold;
-  --border-radius: .3em;
+  --border-radius: .3rem;
 }
 
 .btn_bg_number {
-  --background: #d466f0f3;
-}
-
-.btn_bg_calc {
   --background: #B567E2;
 }
 
-.btn_icon {
-  height: 2em;
-  width: 2em auto;
-  color: #FFFFFF;
+.btn_bg_calc {
+  --background: #6e00a1f3;
 }
